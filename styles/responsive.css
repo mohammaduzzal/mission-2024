@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+  header{
+    width: 100%;
+  }
+    .banner{
+      width: 100%;
+      flex-direction: column;
+    }
+    .banner-child{
+      width: 100%;
+      padding: 50px;
+    }
+}
