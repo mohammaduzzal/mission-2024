@@ -24,6 +24,15 @@
    grid-template-columns: repeat(1, 1fr);
 
     }
+    .corona{
+      width: 100%;
+    }
+    .corona-container{
+      flex-direction: column;
+    }
+    .corona-card{
+      width: 100%;
+    }
     
 
    

@@ -111,7 +111,7 @@
   .develop{
     width: 1050px;
     margin: 0 auto;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     margin-top: 60px;
     margin-bottom: 120px;
     display: grid;
@@ -121,7 +121,7 @@
   }
   .develop-card{
     width: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     
   }
   .develop-card img{
@@ -154,4 +154,83 @@
     margin-bottom: 10px;
   }
   /* develop css ends */
+
+  /* corona css starts */
+  .corona{
+    width: 1050px;
+    margin: 0 auto;
+    /* border: 1px solid tomato; */
+    margin-top: 60px;
+    margin-bottom: 120px;
+  }
+ 
+  .corona-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(255, 173, 90, 1);
+    margin-bottom: 6px;
+    text-align: center;
+
+  }
+  .corona-container{
+    /* border: 1px solid green; */
+    display: flex;
+  }
+  .corona-card{
+    /* border: 1px solid red; */
+    width: 50%;
+  }
+  .corona-card img{
+    width: 100%;
+  }
+  .corona-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .corona-text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(62, 62, 62, 1);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .app-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 89, 89, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* corona css ends */
   /* main css  */
+
+  /* footer css */
+footer{
+  height: 200px;
+  margin-top: 50px;
+  background-color: rgba(11, 13, 23, 1);
+}
+.footer-title{
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 20px 0;
+}
+.footer-text{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(217, 219, 225, 1);
+  text-align: center;
+}
